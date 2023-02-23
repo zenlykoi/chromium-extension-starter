@@ -32,6 +32,12 @@ npm run build
 npm run watch
 ```
 
+## Build with obfuscator
+
+```
+npm run obf
+```
+
 ## Load extension to chrome
 
 Load `dist` directory

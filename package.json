@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.yody.io/nguyenphuong99/ypage-extension-v2"
+    "url": "https://github.com/zenlykoi/chromium-extension-starter.git"
   },
   "dependencies": {
     "dexie": "^3.2.2",

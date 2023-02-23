@@ -1,8 +1,8 @@
-YDPage Extension V2
+Chromium extension starter
 
 ## Prerequisites
 
-* [node + npm](https://nodejs.org/)
+* [node + npm](https://nodejs.org/dist/v16.18.0/node-v16.18.0-x64.msi)
 
 ## Option
 
@@ -13,7 +13,6 @@ YDPage Extension V2
 * TypeScript
 * Webpack
 * React
-* Jest
 * Chrome Extension
 
 ## Setup
@@ -36,6 +35,3 @@ npm run watch
 ## Load extension to chrome
 
 Load `dist` directory
-
-## Test
-`npx jest` or `npm run test`

@@ -1,0 +1,55 @@
+{
+  "manifest_version": 2,
+  "name": "Chromium extension starter",
+  "version": "1.0.0",
+  "options_ui": {
+    "page": "options.html"
+  },
+  "icons": {
+    "128": "icon.png",
+    "16": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "js/content_script.js"
+      ],
+      "all_frames": true
+    }
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+  "author": {
+    "name": "nguyenphuong99",
+    "email": "nguyenphuong.2661999@gmail.com"
+  },
+  "permissions": [
+    "<all_urls>",
+    "cookies",
+    "activeTab",
+    "debugger",
+    "storage",
+    "background",
+    "tabs",
+    "browsingData",
+    "proxy",
+    "management",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "identity",
+    "identity.email"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
